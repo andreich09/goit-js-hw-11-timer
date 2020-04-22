@@ -24,6 +24,7 @@ class CounterTime {
     }
 
     start() {
+        setTimeout(this.timeCalc, 0);
         setInterval(this.timeCalc, 1000);
     }
 }
